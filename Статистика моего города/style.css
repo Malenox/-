@@ -1,0 +1,128 @@
+.b {
+    margin: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: rgb(175, 83, 3);
+    border-right: 5px double green;
+    border-left: 5px double green;
+    background-color: linear-gradient( red 40% yellow 30% blue 65%);
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-size: 200%;
+    /* background: linear-gradient(red 10%, orange 20%, yellow 50%, yellow 70%, green 90% green 100%); */
+}
+body{
+    background-color: rgb(252, 223, 181);
+   /* background: linear-gradient(rgb(250, 200, 99) 0%, orange 10% 30%, yellow 50% 70%, green 80% 100%); */
+}
+img{
+    margin-left: 280px;
+    border: 5px solid green;
+}
+h2{
+    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 30px;
+    padding-bottom: 10px;
+    margin-right: 200px;
+    margin-left: 100px;
+    color: rgb(140, 65, 0);
+    font-size: 250%;
+}
+.text{
+    margin: 100px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    border-top: 4px rgb(59, 98, 1) solid;
+
+    color: rgb(140, 65, 0);
+    background-color: rgb(166, 203, 147);
+    font-size: 150%;
+}
+.turizm{
+    margin: 100px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: rgb(140, 65, 0);
+    font-size: 250%;
+}
+ul{
+    margin: 75px;
+    margin-top: 5px;
+    margin-right: 450px;
+    margin-left: 100px;
+    padding-left: 0px;
+    color: rgb(140, 65, 0);
+    font-size: 150%;
+    background-color: rgb(203, 170, 142);
+    list-style-type: "➤";
+}
+ol{
+    margin: 75px;
+    margin-top: 5px;
+    margin-right: 450px;
+    margin-left: 120px;
+    padding-left: 0px;
+    font-size: 150%;
+    background-color: rgb(203, 170, 142);
+    list-style-type: upper-roman;
+    color: rgb(140, 65, 0);
+}
+.kl{
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: px;
+    margin-right: px;
+    color: rgb(255, 238, 0);
+    font-size: 200%;
+    background: linear-gradient(yellow, rgb(255, 106, 0), rgb(255, 34, 0), rgb(104, 0, 0));
+    padding: 50px;
+    padding-left: 470px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 10px groove rgb(255, 0, 0);
+    border-top: 10px groove rgb(255, 0, 0);;
+}
+table,th,td{
+    margin: 50px;
+    margin-top: 0px;
+    margin-left: px;
+    border: rgb(247, 59, 59) 2px solid;
+    font-size: 120%;
+    padding: 5px;
+
+}
+tbody{
+    background: linear-gradient(red, yellow, blue);
+}
+thead tr:nth-child(1){
+    background-color: #7f031a;
+    color: rgb(253, 179, 179);
+}
+td[scope="cold"]{
+    color: aqua;
+}
+td[scope="zag"]{
+    color: rgb(0, 255, 208);
+}
+td[scope="max"]{
+    color: rgb(255, 226, 59);
+    background-color: #7f031a;
+}
+tbody tr:nth-child(4){
+    color: blue;
+}
+tbody tr:nth-child(1){
+    color: yellow;
+}
+div{
+    background-color: rgb(242, 173, 84);
+    border: 15px inset red;
+    margin: 100px;
+    margin-top: 10px;
+    padding-top: 0px;
+}
